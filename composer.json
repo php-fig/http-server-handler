@@ -22,6 +22,9 @@
         "php": ">=7.0",
         "psr/http-message": "^1.0"
     },
+    "conflict": {
+        "http-interop/http-middleware": ">=0.5"
+    },
     "autoload": {
         "psr-4": {
             "Interop\\Http\\Server\\": "src/"
