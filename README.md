@@ -1,9 +1,9 @@
 HTTP Server Request Handlers
 ==============
 
-This repository holds all interfaces related to [PSR-15 (HTTP Server Request Handlers)][psr-url].
+This repository holds the `RequestHandlerInterface` related to [PSR-15 (HTTP Server Request Handlers)][psr-url].
 
-Note that this is not an HTTP Server Request Handler implementation of its own. It is merely interfaces that describe the components of one.
+Note that this is not a Server Request Handler implementation of its own. It is merely the interface that describe a Server Request Handler.
 
 You can find [implementations][implementation-url] and [installation instructions][package-url] for the specification on the packagist.
 
