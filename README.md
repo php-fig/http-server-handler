@@ -1,6 +1,12 @@
-HTTP Server Handler
-===================
+HTTP Server Request Handlers
+==============
 
-Provides the `RequestHandlerInterface` of [PSR-15][psr-15].
+This repository holds all interfaces related to [PSR-15 (HTTP Server Request Handlers)][psr-url].
 
-[psr-15]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-15-request-handlers.md
+Note that this is not an HTTP Server Request Handler implementation of its own. It is merely interfaces that describe the components of one.
+
+You can find [implementations][implementation-url] and [installation instructions][package-url] for the specification on the packagist.
+
+[psr-url]: https://www.php-fig.org/psr/psr-15/
+[package-url]: https://packagist.org/packages/psr/http-server-handler
+[implementation-url]: https://packagist.org/providers/psr/http-server-handler-implementation
