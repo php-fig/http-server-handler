@@ -5,7 +5,7 @@ This repository holds the `RequestHandlerInterface` related to [PSR-15 (HTTP Ser
 
 Note that this is not a Server Request Handler implementation of its own. It is merely the interface that describe a Server Request Handler.
 
-You can find [implementations][implementation-url] and [installation instructions][package-url] for the specification on the packagist.
+The installable [package][package-url] and [implementations][implementation-url] are listed on Packagist.
 
 [psr-url]: https://www.php-fig.org/psr/psr-15/
 [package-url]: https://packagist.org/packages/psr/http-server-handler
