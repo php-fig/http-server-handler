@@ -8,7 +8,7 @@ use Psr\Http\Message\ServerRequestInterface;
 /**
  * Handles a server request and produces a response.
  *
- * An HTTP request handler process an HTTP request in order to produce an
+ * An HTTP request handler processes an HTTP request in order to produce an
  * HTTP response.
  */
 interface RequestHandlerInterface
